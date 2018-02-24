@@ -238,15 +238,14 @@ footer img {
     
     #features {
         margin: 3.77rem auto;
-        display: inline-block;
-        /* See these codes at Solution Folder */
-        position: relative;
-        left: 35%; 
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center; 
     }
     
     .feature {
-        height: 6.5rem;
-        padding-bottom: 1.54rem;
+        height: auto;
+        padding-bottom: 2rem;
     }
     
     .feature.portrait {
@@ -255,9 +254,8 @@ footer img {
     
     .landscape img {
         width: 5rem;
-        height: auto;
+        padding-bottom: 1rem;
     }
-    /* */
     
     #business-info {
         display: block;
