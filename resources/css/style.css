@@ -75,6 +75,10 @@ nav {
     align-items: center;
 }
 
+nav #menu {
+    display: none;
+}
+
 nav span {
     padding-right: 2rem;
 }
@@ -198,13 +202,95 @@ footer img {
 }
     
 @media only screen and (max-width: 670px) {
+    p {
+        font-size: 0.9rem;
+    }
+    
     header {
-        height: 17rem;
+        height: 18rem;
+        background-position: 20%;
+    }
+    
+    .logo span {
+        display: none;
+    }
+    
+    nav #menu {
+        display: block;
+    }
+    
+    nav .menu {
+        display: none;
     }
     
     .heading {
-        padding: 0.75rem 4rem;
-        margin-top: 5rem;
-        margin-right: 2rem;
+        width: 100%;
+        padding: 1rem 0;
+        margin-top: 9rem;
+        margin-right: 0;
+        text-align: center;
+        position: static;
+    }
+    
+    .heading h1 {
+        font-size: 1rem;
+    }
+    
+    #features {
+        margin: 3.77rem auto;
+        display: inline-block;
+        /* See these codes at Solution Folder */
+        position: relative;
+        left: 35%; 
+    }
+    
+    .feature {
+        height: 6.5rem;
+        padding-bottom: 1.54rem;
+    }
+    
+    .feature.portrait {
+        height: 8rem;
+    }
+    
+    .landscape img {
+        width: 5rem;
+        height: auto;
+    }
+    /* */
+    
+    #business-info {
+        display: block;
+    }
+    
+    .info {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 4rem;
+    }
+    
+    .info-title {
+        width: 100%;
+        padding: 0.5rem 0;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    .info p {
+        padding: 0 2rem;
+        text-align: center;
+    }
+    
+    .footer-content {
+        justify-content: center;
+    }
+    
+    footer img {
+        height: 2.5rem;
+        width: auto;
+    }
+    
+    footer span {
+        display: none;
     }
 }
