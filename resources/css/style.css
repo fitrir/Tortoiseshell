@@ -23,6 +23,7 @@ h1 {
     font-weight: bold;
 }
 
+
 /* Header Section */
 header {
     height: 30rem;
@@ -36,6 +37,8 @@ header .container {
     padding: 1rem 0;
 }
 
+
+/* Header Bar */
 .header-bar {
     background-color: cadetblue;
     color: white;
@@ -71,6 +74,8 @@ header .flex {
     justify-content: flex-end;
 }
 
+
+/* Heading Banner */
 .heading {
     background-color: white;
     padding: 1.5rem 5rem;
@@ -85,4 +90,35 @@ header .flex {
     font-size: 2rem;
     line-height: 1.2;
 }
+
+
+/* Features Content */
+#features {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 8rem;
+    width: 5rem;
+    padding: 0 3rem;
+}
+
+.feature img {
+    width: 3.5rem;
+    height: auto;
+}
+
+.feature p {
+    text-align: center;
+}
+
+
+/* Info Content */
 
