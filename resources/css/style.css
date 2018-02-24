@@ -23,6 +23,9 @@ h1 {
     font-weight: bold;
 }
 
+p {
+    line-height: 1.4;
+}
 
 /* Header Section */
 header {
@@ -121,4 +124,22 @@ header .flex {
 
 
 /* Info Content */
+#business-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
 
+.info {
+    width: 35%;
+    padding: 0 5%;
+}
+
+.info-title {
+    background-color: cadetblue;
+    color: white;
+    padding: 0.5rem 1.25rem;
+    width: 10rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
